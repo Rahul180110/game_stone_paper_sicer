@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gh1{
+    color: rgb(86, 229, 245);
+    font-size: 3rem;
+}
+#choice{
+    margin-bottom: 25px;
+}
+#choice button{
+    border: none;
+    margin: 10px 10px ;
+    font-size: 5em;
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 50%;
+    background-color: rgb(12, 81, 232);
+}
+#choice button:hover{
+    background-color: rgb(36, 206, 13);
+}
+#choice button:active{
+    background-color: rgb(236, 52, 52);
+}
+.point{
+    font-size: 3rem;
+
+}
+.win{
+    color: rgb(23, 207, 57);
+}
+.lose{
+    color: rgb(233, 31, 31);
+}
+.tie{
+    color: rgb(223, 233, 31);
+}
